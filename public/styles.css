@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.authentication-page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.authentication-page-container__left-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+
+.authentication-form-container__heading {
+  margin-bottom: 40px;
+  color: #171725;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.left-block__authentication-form-container {
+  width: 403px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.authentication-form-container__input {
+  padding: 12px 12px 12px 57px;
+  width: 403px;
+  border-radius: 8px;
+  border: 1px solid #e0e2e9;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.authentication-form-container__input::placeholder {
+  color: #969ab8;
+}
+
+.input__envelope {
+  background: url("assets/IcOutlineEmail.svg") no-repeat left;
+  background-size: 20px;
+  background-position: 20px;
+}
+
+.input__key {
+  background: url("assets/IcRoundKey.svg") no-repeat left;
+  background-size: 20px;
+  background-position: 20px;
+}
+
+.authentication-form-container__input:focus {
+  outline: none;
+  border: 1px solid #949494;
+}
+
+.authentication-form-container__button {
+  margin-top: 8px;
+  background-color: #0062ff;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 12px 179px;
+  border-radius: 8px;
+}
+
+.authentication-form-container__button:hover {
+  cursor: pointer;
+  background-color: #0054db;
+}
+
+.authentication-page-container__link {
+  font-size: 15px;
+  color: #0062ff;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+  text-align: end;
+  margin-top: 16px;
+}
+
+.left-block__separator {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+  width: 403px;
+}
+
+.separator__line {
+  width: 100%;
+  height: 1px;
+  background-color: #e4e6ec;
+}
+
+.separator__text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #969ab8;
+}
+
+.left-block__new-user-message {
+  font-size: 15px;
+  font-weight: 400;
+  color: #969ab8;
+  margin-top: 40px;
+  width: 403px;
+  text-align: start;
+}
+
+.authentication-page-container__right-block {
+  width: 60%;
+  background: url("assets/authentication-page-background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.main-page-container {
+  display: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SocialToon</title>
+  </head>
+  <body>
+    <div id="authentication-page" class="authentication-page-container">
+      <div class="authentication-page-container__left-block">
+        <form
+          id="authentication-form"
+          class="left-block__authentication-form-container"
+        >
+          <h1 class="authentication-form-container__heading">Log in</h1>
+          <input
+            type="authentication-form-email"
+            id="authentication-form-email"
+            name="authentication-form-email"
+            class="authentication-form-container__input input__envelope"
+            placeholder="Your email"
+          />
+          <input
+            type="password"
+            id="authentication-form-password"
+            name="authentication-form-password"
+            class="authentication-form-container__input input__key"
+            placeholder="Password"
+          />
+          <input
+            type="submit"
+            value="Log in"
+            class="authentication-form-container__button"
+          />
+          <a href="#" class="authentication-page-container__link"
+            >Forgot password?</a
+          >
+        </form>
+        <div class="left-block__separator">
+          <div class="separator__line"></div>
+          <p class="separator__text">or</p>
+          <div class="separator__line"></div>
+        </div>
+        <span class="left-block__new-user-message"
+          >Don't have an account?&nbsp;<a
+            class="authentication-page-container__link"
+            >Sign up</a
+          ></span
+        >
+      </div>
+      <div class="authentication-page-container__right-block"></div>
+    </div>
+    <div id="main-page" class="main-page-container">Main Page</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
