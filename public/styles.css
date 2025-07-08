@@ -82,7 +82,7 @@
   background-color: #0054db;
 }
 
-.authentication-page-container__link {
+.link {
   font-size: 15px;
   color: #0062ff;
   font-weight: 600;
@@ -90,6 +90,10 @@
   width: 100%;
   text-align: end;
   margin-top: 16px;
+}
+
+.link:hover {
+  color: #0054db;
 }
 
 .left-block__separator {
